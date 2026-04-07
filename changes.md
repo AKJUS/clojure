@@ -1,5 +1,10 @@
 <!-- -*- mode: markdown ; mode: visual-line ; coding: utf-8 -*- -->
 
+# Changes to Clojure in Version 1.12.5
+
+* [CLJ-2945](https://clojure.atlassian.net/browse/CLJ-2945) - reify - incorrectly transfers reader metadata to runtime object
+* [CLJ-2228](https://clojure.atlassian.net/browse/CLJ-2228) - constantly - unroll to remove rest args allocation
+
 # Changes to Clojure in Version 1.12.4
 
 * [CLJ-2924](https://clojure.atlassian.net/browse/CLJ-2924) - LazySeq - fix visibility issues with non-volatile reads
